@@ -1,0 +1,175 @@
+:root{
+    --orange:#ff5303; 
+}
+
+*{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+.wrapper{
+    padding: 2%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text-center{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+/* clearfix for clear mixed up segments*/
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+/* css for Categories*/
+.categories{
+    padding: 4% 0;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 2%; 
+}
+.box-3{
+    width: 28%;
+    float: left;
+    margin: 2%;
+}
+.img-responsive{
+    width: 100%;
+}
+.img-curve{
+    border-radius: 15px;
+}
+
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+    margin: 30px;
+}
+.text-left{
+    text-align: left;
+}
+.text-white{
+    color: white;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+a{
+    color: #ff6b81;
+    text-decoration: none;
+}
+a:hover{
+    color: #ff4757;
+}
+
+.btn{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+.btn-primary{
+    background-color: #ff6b81;
+    color: white;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    color: white;
+    background-color: #ff4757;
+}
+h2{
+    color: #2f3542;
+    font-size: 2rem;
+    margin-bottom: 2%;
+}
+h3{
+    font-size: 1.5rem;
+}
+.float-container{
+    position: relative;
+}
+.float-text{
+    position: absolute;
+    bottom: 50px;
+    left: 40%;
+}
+fieldset{
+    border: 1px solid white;
+    margin: 5%;
+    padding: 3%;
+    border-radius: 5px;
+}
+
+.error{
+    padding: 2%;
+    color: red;
+}
+.success{
+    padding: 2%;
+    color: green;
+}
+
+
+/* css for Menu*/
+.menu{
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+.menu ul{
+    list-style-type: none; /* remove left side disk*/
+}
+.menu ul li{
+    display: inline; /* make list into horizontal line*/
+    padding: 15PX;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-weight: normal;
+    color: var(--orange);
+    font-size: 1.5rem;
+}
+.menu ul li a:hover{
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+/* css for main-content*/
+.main-content{
+    background-color: rgb(209, 209, 209);
+    padding: 0;
+}
+.col-4{
+    width: 20%;
+    background-color: white;
+    margin: 20px;
+    padding: 40px;
+    text-align: center;
+    float: left; /* make text in horizontal line*/
+}
+
+/* css for footer*/
+.footer{
+    background-color:var(--orange);
+    color: white;
+}
+
+.social{
+    background-color:gray;
+    color: white;
+}

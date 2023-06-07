@@ -1,0 +1,144 @@
+:root{
+    --orange:#ff5303; 
+}
+
+*{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+.wrapper{
+    padding: 2%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text-center{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+/* clearfix for clear mixed up segments*/
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+/*table size design */
+.tbl{
+    width: 100%;
+    font-size: medium;
+}
+
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 20px;
+    text-align: left;
+}
+table tr td{
+    padding: 15px;
+}
+
+/*table for add admin--> design */
+.tbl-admin{
+    width: 50%;
+}
+
+
+/*button design */
+.btn-primary{
+    background-color: #1e90ff;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.btn-primary:hover{
+    background-color: white;
+    color: #1e90ff;
+    font-weight: bold;
+    border-color: #1e90ff;
+    border-style:inset;
+}
+.btn-secondary{
+    background-color: #2ed573;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.btn-secondary:hover{
+    background-color: white;
+    color: #2ed573;
+    font-weight: bold;
+    border-color: #2ed573;
+    border-style:inset;
+}
+.btn-danger{
+    background-color: #ff4757;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.btn-danger:hover{
+    background-color: white;
+    color: #ff4757;
+    font-weight: bold;
+    border-color: #ff4757;
+    border-style:inset;
+}
+/* css for Menu*/
+.menu{
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+.menu ul{
+    list-style-type: none; /* remove left side disk*/
+}
+.menu ul li{
+    display: inline; /* make list into horizontal line*/
+    padding: 15PX;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-weight: normal;
+    color: var(--orange);
+    font-size: 1.5rem;
+}
+.menu ul li a:hover{
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+/* css for main-content*/
+.main-content{
+    background-color: rgb(209, 209, 209);
+    padding: 0;
+}
+.col-4{
+    width: 20%;
+    background-color: white;
+    margin: 20px;
+    padding: 40px;
+    text-align: center;
+    float: left; /* make text in horizontal line*/
+}
+
+/* css for footer*/
+.footer{
+    background-color:var(--orange);
+    color: white;
+}
